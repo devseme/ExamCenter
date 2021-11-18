@@ -30,10 +30,11 @@ main {
     font-weight: 800;
     text-align: center;
     color: rgb(13, 92, 13);
+    margin-left: 600px;
 }
 .row {
     background-color: honeydew;
-    padding: 30px;
+    padding-top: 30px;
     text-align: center;
     border-radius: 2%;
 }
@@ -44,7 +45,7 @@ main {
 
 .row3{
     font-weight: 600;
-    padding: 50px;
+    
 }
 .row4{
     text-align: center;
@@ -59,7 +60,9 @@ main {
    font-weight: 900;
 }
 
-
+#vision1{
+    color: black;
+}
 
 
 
