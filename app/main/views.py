@@ -12,7 +12,6 @@ def index():
 
     return render_template('index.html') 
 
-<<<<<<< HEAD
 @main.route('/exams')
 def exams():
     
@@ -46,15 +45,6 @@ def uoe():
 def maseno():
     
     return render_template('maseno.html')
-=======
-@main.route('/about')
-def about():
-    '''
-    View root function that returns about template
-    '''
-    return render_template('about.html')
-
->>>>>>> 3bd990c426e67dc958be29776f741133f3a83da0
 
 @main.route('/new_upload', methods = ['POST','GET'])
 # @login_required 
@@ -74,3 +64,10 @@ def new_upload():
     # else:
     #     file_url = None
     return render_template('upload.html') 
+
+@main.route('/about')
+def about():
+    '''
+    View root function that returns about template
+    '''
+    return render_template('about.html')
