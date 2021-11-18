@@ -10,10 +10,25 @@
     
 }
 
-#aboutpg{
-    color: #59da0f;
+main {
+    background-color: rgb(197, 190, 190);
+    padding: 50px;
+    font-size: 15px;
+    text-align: center;
+}
+#aboutpg h1{
+    
+    font-weight: 600;
 }
 
+#create{
+    height: 100px;
+    width: 100px;
+    
+}
+.row{
+    text-align: center;
+}
 
 
 
