@@ -25,12 +25,26 @@ main {
     height: 100px;
     width: 100px;   
 }
+
+.row h1{
+    font-weight: 800;
+    text-align: center;
+    color: rgb(13, 92, 13);
+}
+.row {
+    background-color: honeydew;
+    padding: 30px;
+    text-align: center;
+    border-radius: 2%;
+}
+
 .row3 h1{
     font-weight: 600;
 }
 
 .row3{
     font-weight: 600;
+    padding: 50px;
 }
 .row4{
     text-align: center;
