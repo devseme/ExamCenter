@@ -1,0 +1,33 @@
+{% extends 'bootstrap/base.html'%}
+
+{% block navbar %}
+{% include 'navbar.html' %}
+
+{% endblock %}
+
+{% block content %}
+
+<h1></h1>
+<div class="data">
+    <form class="form">
+        <h1 style="color: white;">CONTACT US</h1> <br><b></b>
+        <div class="contact">
+            <div class="col-md-6 texts" style="color: white;">
+                <input type="text" class="form-control" id="name" placeholder="Name" required style="width: 100%"
+                    style="color: white;">
+            </div>
+            <div class="col-md-6 texts" style="color: white;">
+                <input type="email" class="form-control" id="email" placeholder="Email" required style="width: 100%;">
+            </div><br><br>
+            <div class="col-md-12" style="color: white;">
+                <textarea type="text" name="MESSAGE" class="form-control" required id="message" cols="30" rows="10"
+                    placeholder="Your message here..."></textarea><br><br><br>
+                <button id="submit" class="btn btn-primary" onclick="submit()" type="submit">Submit</button>
+            </div>
+
+        </div>
+
+    </form>
+</div>
+
+{% endblock%}

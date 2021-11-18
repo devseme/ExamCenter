@@ -13,7 +13,7 @@
 main {
     background-color: rgb(197, 190, 190);
     padding: 50px;
-    font-size: 15px;
+    font-size: 17px;
     text-align: center;
 }
 #aboutpg h1{
@@ -66,21 +66,134 @@ main {
 
 
 
+.load{
+    animation: slide 2s;
+}
+  .slider{
+    height: 100vh;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    animation:slide 15s infinite;
+}
+.content{
+    color: #ffff;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+.principal{
+    left: 50%;
+    top:50% ;
+    transform: translate(-50%,-50%) ;
+    position: absolute;
+    letter-spacing: 4px;
+    text-align: center;
+
+}
+.principal h3{
+    font-size: 40px;
+    color:#158566;
+    font-weight: 700;
+
+}
+.principal p{
+    font-size:20px;
+    font-weight: 700;
+}
+@keyframes slide{
+    0%{
+        background-image: url('https://cdn.standardmedia.co.ke/images/friday/lsly83xgzi2m072cj16013f049c41af.jpg');
+
+    }
+    20%{
+        background-image: url('https://cdn.standardmedia.co.ke/images/friday/lsly83xgzi2m072cj16013f049c41af.jpg');
+        
+    }
+    20.01%{
+        background-image: url('https://cdn.pixabay.com/photo/2014/09/05/18/32/old-books-436498__480.jpg');
+        
+    }
+    40%{
+        background-image: url('https://cdn.pixabay.com/photo/2014/09/05/18/32/old-books-436498__480.jpg');
+        
+    }
+    40.01%{
+        background-image: url('https://cdn.pixabay.com/photo/2020/07/24/09/49/books-5433432__340.jpg');
+        
+    }
+    60%{
+        background-image: url('https://cdn.pixabay.com/photo/2020/07/24/09/49/books-5433432__340.jpg');
+        
+    }
+    60.01%{
+        background-image: url('https://amilaktraining.co.za/wp-content/uploads/2018/09/young-students-graduation-ceremony-concept-P3JH82Q_1600x850.jpg');
+        
+    }
+    80%{
+        background-image: url('https://amilaktraining.co.za/wp-content/uploads/2018/09/young-students-graduation-ceremony-concept-P3JH82Q_1600x850.jpg');
+        
+    }
+    80.01%{
+        background-image: url('https://cdn.pixabay.com/photo/2015/10/18/19/04/graduation-995042_960_720.jpg');
+        
+    }
+    100%{
+        background-image: url('https://cdn.pixabay.com/photo/2015/10/18/19/04/graduation-995042_960_720.jpg');
+        
+ 
+}
+
+
+}
 
 
 
 
 
 
+.work{/*styling for the flexbox and its items*/
+    /* background-color:  #292A44; */
+    width: 100%;
+    height: 520px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  
+    
+}
+.work>h2{
+        width:100%;
+        line-height: 1.0em;
+        height:40px;
+        text-align: center;
+        color:black;
+
+ }
+ .work>div>img{
+     float: left;
+ }
+ .work>div>h3{
+     margin-left: 40px;
+ }
+ .work>div>p{
+     margin-top: auto;
+text-align: center;
+ }
+ .website{
+    width: 22%;
+    height:400px;
+    background-color: white;
+    padding: 10px;
+    margin:10px;
+    margin-top:-80px;
+    
 
 
 
-
-
-
-
-
-
+ }
 
 
 
