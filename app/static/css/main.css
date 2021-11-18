@@ -64,7 +64,15 @@ main {
     color: black;
 }
 
+.data{
+    background-color: #FAD201;
+    height: 350px;
+}
 
+#pot{
+    color: darkgreen;
+    text-align: center;
+}
 
 .load{
     animation: slide 2s;
@@ -101,6 +109,11 @@ main {
 .principal p{
     font-size:20px;
     font-weight: 700;
+}
+
+#help{
+    height: 100px;
+    width: 100px;
 }
 @keyframes slide{
     0%{
