@@ -12,6 +12,39 @@ def index():
 
     return render_template('index.html') 
 
+@main.route('/exams')
+def exams():
+    
+    
+    return render_template('exams.html')
+@main.route('/moi')
+def moi():
+    
+    
+    return render_template('moi.html')
+@main.route('/karatina')
+def karatina():
+    
+    return render_template('karatina.html')
+    
+@main.route('/kpke')
+def kpke():
+    
+    return render_template('kpke.html')
+
+@main.route('/Tuk')
+def Tuk():
+    
+    return render_template('Tuk.html')
+@main.route('/uoe')
+def uoe():
+    
+    return render_template('uoe.html')
+
+@main.route('/maseno')
+def maseno():
+    
+    return render_template('maseno.html')
 
 @main.route('/new_upload', methods = ['POST','GET'])
 # @login_required 
