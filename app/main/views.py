@@ -12,6 +12,13 @@ def index():
 
     return render_template('index.html') 
 
+@main.route('/about')
+def about():
+    '''
+    View root function that returns about template
+    '''
+    return render_template('about.html')
+
 
 @main.route('/new_upload', methods = ['POST','GET'])
 # @login_required 
