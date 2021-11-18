@@ -3,8 +3,8 @@
 <!-- Content block -->
 {% block styles %}
     {{ super() }}
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="{{url_for('static',filename='css/main.css')}}">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.9/css/mdb.min.css" rel="stylesheet">
@@ -18,37 +18,87 @@
 <div class="container" style="font-size: 2rem" id="particles-js">
   <ul class="nav nav-pills nav-justified nav-fill mt-5" role="tablist">
     <li class="nav-item">
-      <a id="cats" class="nav-link" data-toggle="tab" href="#all"
+      <a id="cats" class=" href="#all"
         ><strong>Home</strong>
       </a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" id="cats" data-toggle="tab" href="/about"
+      <a class="nav-link" id="cats" data-toggle="tab" href="#about"
+      <a class="nav-link"  href="#about"
         >About</a
       >
     </li>
     <li class="nav-item">
       <a class="nav-link" id="cats"  href="/exams"
+      <a class="nav-link"  href="#pastpapers"
         >Examinations</a
       >
     </li>
     <li class="nav-item">
       <a class="nav-link" id="cats" href="#Tutorials"> Tutorials</a
+      <a class="nav-link"  href="#Tutorials"> Tutorials</a
       >
     </li>
 
     <li class="nav-item">
         <a class="nav-link" id="cats" data-toggle="tab" href="/Let`s Chat"> Let`s Chat</a
+        <a class="nav-link"  href="#Let`s Chat"> Let`s Chat</a
         >
       </li>
   </ul>
 
 </div>
 
-<div class="footer">
+<div  class="slider">
+    <div class="load">
+
+    </div>
+    <div class="content">
+        <div class="principal">
+            <h3>EXAM CENTER</h3>
+            <p>Your Thirst for Education is Satisfied Right Here</p>
+            <div class="carousel-btn">
+                <a class="btn btn-success" href="">
+                    Get Stated
+                </a>
+                
+          
+              </div>
+        </div>
+    </div>
+    
+</div>
+
+</div>
+<br>
+<div class="work">
+    <h2>TESTIMONIALS:</h2>
+    
+    <div class="website">
+        <img src="/static/images/lady1.jpeg" alt="first testimonial" height="240px;" width="270px;" >
+        
+        <p>A nice website that helped me get class based academic materials such as class lecture notes in time of need.<br>
+            <button button type="button" class="btn btn-primary"a href="/">Click here</a></button>
+        </p>
+    </div>
+    <div class="website">
+        <img src="./static/images/students.jpeg"alt="second testimonial" height="240px;" width="270px;">
+        <p>As students,we really appreciate the team that came up with this amazing idea.<br>
+            <button button type="button" class="btn btn-primary"a href="/">Click here</a></button>
+        </p>
+        </div>
+        <div class="website">
+        <img src="/static/images/boy1.jpeg" alt="third testimonial" height="240px;" width="270px;">
+        <p>A timely idea that saved comrades from the hussle of looking for past exam papers for revision.Thank you so much<br>
+            <button button type="button" class="btn btn-primary"a href="/">Click here</a></button>
+        </p>
+        
+    </div>
+</div>
+<div class="footer" style=" background-color: #20603d;">
     <div class="footer-content">
         <div class="footer-section about">
-            <h1 class="logo-text"><span>Exams </span>Centre</h1>
+            <h1 class="logo-text"><span>Exam </span>Centre</h1>
             <p>
                 Bringing Pastpapers to comrades` easy availability</p>
            <div class="contact">
