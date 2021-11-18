@@ -1,27 +1,29 @@
 {% extends 'bootstrap/base.html'%}
 
 {% block navbar %}
-    {% include 'navbar.html' %}
+{% include 'navbar.html' %}
 <main>
     <div id="aboutpg">
         <h1>About Us</h1>
         <div id="about">
             <div><img id="slum" src="Pics/talent_shortage-removebg-preview.png" alt=""></div>
             <div>
-                <p>Through this web application we decide to restore confidence and hope to student in having a better performance. We have taken hope as somewhat ephemeral concept, and made it practical.
-                    Hope is about one’s ability to achieve goals. It has been linked to greater academic achievement, creativity, and problem-solving skills, as well as less depression and anxiety.</p>
+                <p>Through this web application we decide to restore confidence and hope to student in having a better
+                    performance. We have taken hope as somewhat ephemeral concept, and made it practical.
+                    Hope is about one’s ability to achieve goals. It has been linked to greater academic achievement,
+                    creativity, and problem-solving skills, as well as less depression and anxiety.</p>
                 <p>We are based in Kenya, we are located along <strong>Ngong Lane Plaza</strong></p>
             </div>
         </div>
     </div>
     <hr>
-    <div id="vision">
+    <div class="row">
         <h1>VISION AND MISSION</h1>
-        <div id="vision1">
-            <div>
-                <img src="Pics/zach-vessels-oOHBxlGADx4-unsplash.jpg" alt="">
+        <div class="vision1">
+            <div class="col-md-6">
+                <img id="img" src="/static/icons/jkuat.jpg" alt="">
             </div>
-            <div>
+            <div class="col-md-6">
                 <h3>Mission</h3>
                 <p>To ensure a financially-sustainable organization, efficiently and effectively administer, provide
                     access to examinations and provide applicable accompanying support services aimed at the highest
@@ -33,34 +35,36 @@
                     results and statistics.</p>
             </div>
         </div>
+        
         <hr>
-        <div>
-            <div id="core">
-                <h1>OUR CORE VALUES</h1>
+         
+    </div>
+    <div class="row3">
+        <div id="core">
+            <h1>OUR CORE VALUES</h1>
+        </div>
+        <div class="row4">
+            <div class="col-md-4">
+                <img id="create" src="/static/icons/intergrity.png" alt="">
+                <h3>Integrity</h3>
+                <p>Academic integrity means putting those values into practise by being honest in the academic work
+                    you do at university, being fair to others, and taking responsibility for learning, and
+                    following the conventions of scholarship.</p>
             </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <img id="create" src="/static/icons/intergrity.png" alt="">
-                    <h3>Integrity</h3>
-                    <p>Academic integrity means putting those values into practise by being honest in the academic work
-                        you do at university, being fair to others, and taking responsibility for learning, and
-                        following the conventions of scholarship.</p>
-                </div>
-                <div class="col-md-4">
-                    <img id="create" src="/static/icons/creativity.png" alt="">
-                    <h3>Creativity</h3>
-                    <p>Creativity is about applying and interpreting knowledge in an innovative and unique way, and in
-                        order to do so, students must understand the content in detail, and have the confidence to
-                        provide their own unique take on it.</p>
-                </div>
-                <div class="col-md-4">
-                    <img id="create" src="/static/icons/accountability.png" alt="">
-                    <h3>Accountability</h3>
-                    <p>Student accountability begins with establishing the right learning environment. ... When students
-                        feel connected to each other and their teacher, and when they learn that their actions have
-                        consequences, they are more likely to take responsibility for their behavior and their learning.
-                    </p>
-                </div>
+            <div class="col-md-4">
+                <img id="create" src="/static/icons/creativity.png" alt="">
+                <h3>Creativity</h3>
+                <p>Creativity is about applying and interpreting knowledge in an innovative and unique way, and in
+                    order to do so, students must understand the content in detail, and have the confidence to
+                    provide their own unique take on it.</p>
+            </div>
+            <div class="col-md-4">
+                <img id="create" src="/static/icons/accountability.png" alt="">
+                <h3>Accountability</h3>
+                <p>Student accountability begins with establishing the right learning environment. ... When students
+                    feel connected to each other and their teacher, and when they learn that their actions have
+                    consequences, they are more likely to take responsibility for their behavior and their learning.
+                </p>
             </div>
         </div>
     </div>
@@ -70,19 +74,6 @@
             <p>Our services are identifying talent, naturing and connecting them to portential sponsors and clients
                 looking for these services</p>
         </div>
-        <div>
-            <h2>Talent Acqusition</h2>
-            <p>We register talented individuals, scrutinize these talent and train them</p>
-        </div>
-        <div id="sponsor">
-            <h2>Sponsors Connect</h2>
-            <p>We source sponsors, and connecting them with what we do</p>
-        </div>
-        <div id="outsource">
-            <h2>Outsource Services</h2>
-            <p>We connect our talented individuals with the potential clients looking for a service, these are
-                individuals who are looking for services from our range of talents</p>
-        </div>
     </div>
 </main>
 <div class="footer">
@@ -91,33 +82,45 @@
             <h1 class="logo-text"><span>Exams </span>Centre</h1>
             <p>
                 Bringing Pastpapers to comrades` easy availability</p>
-           <div class="contact">
-               <span><i class="fa fa-phone"></i>&nbsp; +25472345678</span>
-               <span><i class="fa fa-envelope"></i>&nbsp; info@examscenter.outlook.com</span>
-           </div> 
-           <div class="socials">
-               <a href="#"><i class="fa fa-facebook"></i></a>
-               <a href="#"><i class="fa fa-instagram"></i></a>
-               <a href="#"><i class="fa fa-twitter"></i></a>
-               <a href="#"><i class="fa fa-youtube"></i></a>
-           </div>      
+            <div class="contact">
+                <span><i class="fa fa-phone"></i>&nbsp; +25472345678</span>
+                <span><i class="fa fa-envelope"></i>&nbsp; info@examscenter.outlook.com</span>
+            </div>
+            <div class="socials">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-youtube"></i></a>
+            </div>
         </div>
         <div class="footer-section links">
             <h2>Quick links</h2>
             <br>
             <ul>
-                <a href="#"><li>Home</li></a>
-                <a href="/about"><li>About</li></a>
-                <a href="#"><li>Examinations</li></a>
-                <a href="#"><li>Tutorials</li></a>
-                <a href="#"><li>Let`s Chat</li></a>
+                <a href="#">
+                    <li>Home</li>
+                </a>
+                <a href="/about">
+                    <li>About</li>
+                </a>
+                <a href="#">
+                    <li>Examinations</li>
+                </a>
+                <a href="#">
+                    <li>Tutorials</li>
+                </a>
+                <a href="#">
+                    <li>Let`s Chat</li>
+                </a>
             </ul>
         </div>
         <div class="footer-section contact-form">
             <h2>Contact Us </h2>
-            <form action="index.html" method="POST" id="form" >
-                <input type="email" class="text-input contact-input" id="email" placeholder="Your email address..." required>
-                <textarea name="message" class="text-input contact-input" id="message" placeholder="Your message here..."></textarea>
+            <form action="index.html" method="POST" id="form">
+                <input type="email" class="text-input contact-input" id="email" placeholder="Your email address..."
+                    required>
+                <textarea name="message" class="text-input contact-input" id="message"
+                    placeholder="Your message here..."></textarea>
                 <br>
                 <button type="submit" class="btn btn-big contact-btn">
                     <i class="fa fa-envelope"></i>
@@ -131,7 +134,7 @@
 
     </div>
 
-<div class="footer-bottom">
-   &copy;info@examscenter.outlook.com  
-</div>
-{% endblock %}
+    <div class="footer-bottom">
+        &copy;info@examscenter.outlook.com
+    </div>
+    {% endblock %}

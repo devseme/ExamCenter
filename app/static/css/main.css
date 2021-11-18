@@ -24,12 +24,16 @@ main {
 #create{
     height: 100px;
     width: 100px;
+
     
 }
-.row{
+.row4{
     text-align: center;
 }
-
+#img {
+    height: 300px;
+    width:450px;
+}
 
 
 
