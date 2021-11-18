@@ -23,12 +23,18 @@ main {
 
 #create{
     height: 100px;
-    width: 100px;
+    width: 100px;   
+}
+.row3 h1{
+    font-weight: 600;
+}
 
-    
+.row3{
+    font-weight: 600;
 }
 .row4{
     text-align: center;
+    
 }
 #img {
     height: 300px;
@@ -36,7 +42,7 @@ main {
 }
 #core{
    color: forestgreen;
-   font-weight: 800;
+   font-weight: 900;
 }
 
 
