@@ -1,14 +1,17 @@
+{% extends 'bootstrap/base.html'%}
+
+{% block navbar %}
+    {% include 'navbar.html' %}
+
+
 <main>
     <div id="aboutpg">
-        <div id="aboutint">
-            <h1>About Us</h1>
-        </div>
+        <h1>About Us</h1>
         <div id="about">
             <div><img id="slum" src="Pics/talent_shortage-removebg-preview.png" alt=""></div>
             <div>
-                <p>We believe that Africa’s talent is her future, and we constantly strive to give those talents a voice
-                    to ensure that we leverage Africa’s talent. A company is only as good as its staff on any given day,
-                    as such, we believe that the human resource is the most valuable resource in Africa.</p>
+                <p>Through this web application we decide to restore confidence and hope to student in having a better performance. We have taken hope as somewhat ephemeral concept, and made it practical.
+                    Hope is about one’s ability to achieve goals. It has been linked to greater academic achievement, creativity, and problem-solving skills, as well as less depression and anxiety.</p>
                 <p>We are based in Kenya, we are located along <strong>Ngong Lane Plaza</strong></p>
             </div>
         </div>
@@ -84,3 +87,36 @@
         </div>
     </div>
 </main>
+<div class="footer-section links">
+    <h2>Quick links</h2>
+    <br>
+    <ul>
+        <a href="#"><li>Home</li></a>
+        <a href="/about"><li>About</li></a>
+        <a href="#"><li>Examinations</li></a>
+        <a href="#"><li>Tutorials</li></a>
+        <a href="#"><li>Let`s Chat</li></a>
+    </ul>
+</div>
+<div class="footer-section contact-form">
+    <h2>Contact Us </h2>
+    <form action="index.html" method="POST" id="form" >
+        <input type="email" class="text-input contact-input" id="email" placeholder="Your email address..." required>
+        <textarea name="message" class="text-input contact-input" id="message" placeholder="Your message here..."></textarea>
+        <br>
+        <button type="submit" class="btn btn-big contact-btn">
+            <i class="fa fa-envelope"></i>
+            send
+        </button>
+
+    </form>
+
+    </form>
+</div>
+
+</div>
+
+<div class="footer-bottom">
+&copy;info@examscenter.outlook.com  
+</div>
+{% endblock %}
