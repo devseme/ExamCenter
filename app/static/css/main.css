@@ -1,4 +1,5 @@
-*{
+*
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,15 +7,108 @@
 
 #nav-color {
     background-color:#158566;
+    font-size: 20px;
     
-  } 
+    
+}
 
+main {
+    background-color: rgb(197, 190, 190);
+    padding: 50px;
+    text-align: center;
+    font-size: 17px;
+}
 
+.card{
+    background-color: darkkhaki;
+    
+}
 
+#aboutpg h1{
+    
+    font-weight: 600;
+}
 
+#create{
+    height: 100px;
+    width: 100px;   
+}
 
+.row h1{
+    font-weight: 800;
+    text-align: center;
+    color: rgb(13, 92, 13);
+    margin-left: 600px;
+}
+.container {
+    background-color: honeydew;
+    padding-top: 30px;
+    text-align: center;
+    border-radius: 2%;
+}
 
+.lec{
+    background-color: gainsboro;
+    height: 400px;
+    color: black;
+    font-weight: 400;
+    padding: 20px;
+    padding-left: 20px;
+    margin-left: 80px;
+}
 
+.lec h2{
+    color: black;
+    font-weight: 700;
+
+}
+#submit{
+    font-size: 10px;
+}
+.row3 h1{
+    font-weight: 600;
+}
+
+.row3{
+    font-weight: 600;
+    
+}
+.row4{
+    text-align: center;
+    
+}
+#img {
+    height: 300px;
+    width:450px;
+}
+#core{
+   color: forestgreen;
+   font-weight: 900;
+}
+
+#vision1{
+    color: black;
+}
+.let{
+    background-color: darkkhaki;
+    height: 900px;
+    font-size: medium;
+}
+.data{
+    background-color: #b9b081;
+    height: 350px;
+    padding: 10px;
+}
+
+#pot{
+    color: darkgreen;
+    text-align: center;
+    font-weight: 700;
+}
+#help{
+    height: 100px;
+    width: 100px;
+}
 .load{
     animation: slide 2s;
 }
@@ -51,6 +145,8 @@
     font-size:20px;
     font-weight: 700;
 }
+
+
 @keyframes slide{
     0%{
         background-image: url('https://cdn.standardmedia.co.ke/images/friday/lsly83xgzi2m072cj16013f049c41af.jpg');

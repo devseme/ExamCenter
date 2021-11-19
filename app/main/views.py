@@ -12,6 +12,20 @@ def index():
 
     return render_template('index.html') 
 
+@main.route('/about')
+def about():
+    '''
+    View root function that returns about template
+    '''
+    return render_template('about.html')
+
+@main.route('/form')
+def form():
+    '''
+    View root function that returns about template
+    '''
+    return render_template('form.html')
+
 @main.route('/exams')
 def exams():
     

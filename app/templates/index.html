@@ -15,7 +15,7 @@
 <div class="container" style="font-size: 2rem" id="particles-js">
   <ul class="nav nav-pills nav-justified nav-fill mt-5" role="tablist">
     <li class="nav-item">
-      <a id="cats" class=" href="/all"
+      <a id="cats" class="" href="/all"
         ><strong>Home</strong>
       </a>
     </li>
@@ -29,9 +29,8 @@
         >Examinations</a
       >
     </li>
-    
     <li class="nav-item">
-        <a class="nav-link"  href="/Let`s Chat"> Let`s Chat</a
+        <a class="nav-link"  href="/chat"> Let`s Chat</a
         >
       </li>
   </ul>
@@ -44,7 +43,7 @@
             <h3>EXAM CENTER</h3>
             <p>Your Thirst for Education is Satisfied Right Here</p>
             <div class="carousel-btn">
-                <a class="btn btn-success" href="">
+                <a class="btn btn-success" href="{{url_for('auth.logout')}}">
                     Get Stated
                 </a>
               </div>
@@ -56,24 +55,25 @@
 <div class="work">
     <h2>TESTIMONIALS:</h2>
     <div class="website">
-        <img src="/static/images/lady1.jpeg" alt="first testimonial" height="240px;" width="270px;" style="border-radius: 200px;" >
+        <img src="/static/images/lady1.jpeg" alt="first testimonial" height="240px;" width="270px;" style="border-radius: 200px;"><br><br><br>
         <p>A nice website that helped me get class based academic materials such as class lecture notes in time of need.<br>
             <button button type="button" class="btn btn-primary"a href="/">Click here</a></button>
         </p>
     </div>
     <div class="website">
-        <img src="./static/images/students.jpeg"alt="second testimonial" height="240px;" width="270px;"style="border-radius: 200px;" >
+        <img src="./static/images/students.jpeg"alt="second testimonial" height="240px;" width="270px;"style="border-radius: 200px;"><br><br><br>
         <p>As students,we really appreciate the team that came up with this amazing idea.<br>
             <button button type="button" class="btn btn-primary"a href="/">Click here</a></button>
         </p>
         </div>
         <div class="website">
-        <img src="/static/images/boy1.jpeg" alt="third testimonial" height="240px;" width="270px;"style="border-radius: 200px;" >
+        <img src="/static/images/boy1.jpeg" alt="third testimonial" height="240px;" width="270px;"style="border-radius: 200px;"><br><br><br>
         <p>A timely idea that saved comrades from the hussle of looking for past exam papers for revision.Thank you so much<br>
             <button button type="button" class="btn btn-primary"a href="/">Click here</a></button>
         </p>
     </div>
 </div>
+<br><br>
 <div class="footer" style=" background-color: #20603D;">
     <div class="footer-content">
         <div class="footer-section about">
@@ -95,11 +95,10 @@
             <h2>Quick links</h2>
             <br>
             <ul>
-                <a href="#"><li>Home</li></a>
-                <a href="#"><li>About</li></a>
-                <a href="#"><li>Examinations</li></a>
-                <a href="#"><li>Tutorials</li></a>
-                <a href="#"><li>Let`s Chat</li></a>
+                <a href="/all"><li>Home</li></a>
+                <a href="/about"><li>About</li></a>
+                <a href="/exams"><li>Examinations</li></a>
+                <a href="/chat"><li>Let`s Chat</li></a>
             </ul>
         </div>
         <div class="footer-section contact-form">

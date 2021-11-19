@@ -1,134 +1,144 @@
-{% extends 'base.html'%}
+<div class="card">
+   {% extends 'base.html'%}
 {% import 'bootstrap/wtf.html' as wtf%}
 {% block styles%}
-   {{ super() }}
-   <link rel="stylesheet" href="{{url_for('static',filename='css/main.css')}}">
+{{ super() }}
+<link rel="stylesheet" href="{{url_for('static',filename='css/main.css')}}">
 {% endblock %}
 
- 
+
 {% block content %}
+</div>
 <div class="examscontent">
-  <div class="cards">
-    <div class="card">
-     
-       <div class="card-body">
-          <h5 class="card-title">KENYA POLYTECHNIC KNEC EXAMS</h5>
-          <p class="card-text">Download Past KNEC examinations for polytechnic on Campusexams</p>
-          <a href="/kpke" class="btn btn-primary">view</a>
-       </div>
-    </div>
-    <div class="card">
-       
-       <div class="card-body">
-          <h5 class="card-title">MOI UNIVERSITY</h5>
-          <p class="card-text">Get Moi university academic materials </p>
-          <a href="/moi" class="btn btn-primary">view</a>
-       </div>
-    </div>
-    <div class="card">
-      
-       <div class="card-body">
-          <h5 class="card-title">UNIVERSITY OF ELDORET</h5>
-          <p class="card-text">Get UOE university academic materials</p>
-          <a href="/uoe" class="btn btn-primary">view</a>
-       </div>
-    </div>
-    <div class="card">
-      
-       <div class="card-body">
-          <h5 class="card-title">TECHNICAL UNIVERSITY OF KENYA</h5>
-          <p class="card-text">Get TUK university academic materials</p>
-          <a href="/Tuk" class="btn btn-primary">view</a>
-       </div>
-    </div>
-    <div class="card">
-      
-       <div class="card-body">
-          <h5 class="card-title">MASENO UNIVERSITY</h5>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-          <a href="/maseno" class="btn btn-primary">view</a>
-       </div>
-    </div>
-    <div class="card">
-      
-       <div class="card-body">
-          <h5 class="card-title">KARATINA UNIVERSITY</h5>
-          <p class="card-text">Get Karatina university academic materials </p>
-          <a href="#" class="btn btn-primary">view</a>
-       </div>
-    </div>
-   
-     <div class="card">
-      
-       <div class="card-body">
-          <h5 class="card-title">TAITA TAVETA UNIVERSITY</h5>
-          <p class="card-text">Get Taita Taveta University academic materials</p>
-          <a href="#" class="btn btn-primary">view</a>
-       </div>
-    </div>
-     <div class="card">
-      
-       <div class="card-body">
-          <h5 class="card-title">KENYA COLLEGE OF ACCOUNTANCY UNIVERSITY</h5>
-          <p class="card-text">Get KCA University academic materials</p>
-          <a href="#" class="btn btn-primary">view</a>
-       </div>
-    </div>
-  </div>
+   <div class="cards">
+      <div class="card">
+
+         <div class="card-body">
+            <h5 class="card-title">KENYA POLYTECHNIC KNEC EXAMS</h5>
+            <p class="card-text">Download Past KNEC examinations for polytechnic on Campusexams</p>
+            <a href="/kpke" class="btn btn-primary">view</a>
+         </div>
+      </div>
+      <div class="card">
+
+         <div class="card-body">
+            <h5 class="card-title">MOI UNIVERSITY</h5>
+            <p class="card-text">Get Moi university academic materials </p>
+            <a href="/moi" class="btn btn-primary">view</a>
+         </div>
+      </div>
+      <div class="card">
+
+         <div class="card-body">
+            <h5 class="card-title">UNIVERSITY OF ELDORET</h5>
+            <p class="card-text">Get UOE university academic materials</p>
+            <a href="/uoe" class="btn btn-primary">view</a>
+         </div>
+      </div>
+      <div class="card">
+
+         <div class="card-body">
+            <h5 class="card-title">TECHNICAL UNIVERSITY OF KENYA</h5>
+            <p class="card-text">Get TUK university academic materials</p>
+            <a href="/Tuk" class="btn btn-primary">view</a>
+         </div>
+      </div>
+      <div class="card">
+
+         <div class="card-body">
+            <h5 class="card-title">MASENO UNIVERSITY</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="/maseno" class="btn btn-primary">view</a>
+         </div>
+      </div>
+      <div class="card">
+
+         <div class="card-body">
+            <h5 class="card-title">KARATINA UNIVERSITY</h5>
+            <p class="card-text">Get Karatina university academic materials </p>
+            <a href="#" class="btn btn-primary">view</a>
+         </div>
+      </div>
+
+      <div class="card">
+
+         <div class="card-body">
+            <h5 class="card-title">TAITA TAVETA UNIVERSITY</h5>
+            <p class="card-text">Get Taita Taveta University academic materials</p>
+            <a href="#" class="btn btn-primary">view</a>
+         </div>
+      </div>
+      <div class="card">
+
+         <div class="card-body">
+            <h5 class="card-title">KENYA COLLEGE OF ACCOUNTANCY UNIVERSITY</h5>
+            <p class="card-text">Get KCA University academic materials</p>
+            <a href="#" class="btn btn-primary">view</a>
+         </div>
+      </div>
+   </div>
 </div>
 
 <div class="footer">
-    <div class="footer-content">
-        <div class="footer-section about">
-            <h1 class="logo-text"><span>Exams </span>Centre</h1>
-            <p>
-                Bringing Pastpapers to comrades` easy availability</p>
-           <div class="contact">
-               <span><i class="fa fa-phone"></i>&nbsp; +25472345678</span>
-               <span><i class="fa fa-envelope"></i>&nbsp; info@examscenter.outlook.com</span>
-           </div> 
-           <div class="socials">
-               <a href="#"><i class="fa fa-facebook"></i></a>
-               <a href="#"><i class="fa fa-instagram"></i></a>
-               <a href="#"><i class="fa fa-twitter"></i></a>
-               <a href="#"><i class="fa fa-youtube"></i></a>
-           </div>      
-        </div>
-        <div class="footer-section links">
-            <h2>Quick links</h2>
+   <div class="footer-content">
+      <div class="footer-section about">
+         <h1 class="logo-text"><span>Exams </span>Centre</h1>
+         <p>
+            Bringing Pastpapers to comrades` easy availability</p>
+         <div class="contact">
+            <span><i class="fa fa-phone"></i>&nbsp; +25472345678</span>
+            <span><i class="fa fa-envelope"></i>&nbsp; info@examscenter.outlook.com</span>
+         </div>
+         <div class="socials">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-youtube"></i></a>
+         </div>
+      </div>
+      <div class="footer-section links">
+         <h2>Quick links</h2>
+         <br>
+         <ul>
+            <a href="#">
+               <li>Home</li>
+            </a>
+            <a href="#">
+               <li>About</li>
+            </a>
+            <a href="#">
+               <li>Examinations</li>
+            </a>
+            <a href="#">
+               <li>Tutorials</li>
+            </a>
+            <a href="#">
+               <li>Let`s Chat</li>
+            </a>
+         </ul>
+      </div>
+      <div class="footer-section contact-form">
+         <h2>Contact Us </h2>
+         <form action="index.html" method="POST" id="form">
+            <input type="email" class="text-input contact-input" id="email" placeholder="Your email address..."
+               required>
+            <textarea name="message" class="text-input contact-input" id="message"
+               placeholder="Your message here..."></textarea>
             <br>
-            <ul>
-                <a href="#"><li>Home</li></a>
-                <a href="#"><li>About</li></a>
-                <a href="#"><li>Examinations</li></a>
-                <a href="#"><li>Tutorials</li></a>
-                <a href="#"><li>Let`s Chat</li></a>
-            </ul>
-        </div>
-        <div class="footer-section contact-form">
-            <h2>Contact Us </h2>
-            <form action="index.html" method="POST" id="form" >
-                <input type="email" class="text-input contact-input" id="email" placeholder="Your email address..." required>
-                <textarea name="message" class="text-input contact-input" id="message" placeholder="Your message here..."></textarea>
-                <br>
-                <button type="submit" class="btn btn-big contact-btn">
-                    <i class="fa fa-envelope"></i>
-                    send
-                </button>
+            <button type="submit" class="btn btn-big contact-btn">
+               <i class="fa fa-envelope"></i>
+               send
+            </button>
 
-            </form>
+         </form>
 
-            </form>
-        </div>
+         </form>
+      </div>
 
-    </div>
+   </div>
 
-<div class="footer-bottom">
-   &copy;info@examscenter.outlook.com  
-</div>
+   <div class="footer-bottom">
+      &copy;info@examscenter.outlook.com
+   </div>
 
-
- 
-{% endblock%}
-
-
+   {% endblock%}
