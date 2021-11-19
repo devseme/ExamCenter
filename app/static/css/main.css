@@ -13,9 +13,14 @@
 main {
     background-color: rgb(197, 190, 190);
     padding: 50px;
-    font-size: 17px;
     text-align: center;
 }
+
+.card{
+    background-color: darkkhaki;
+    
+}
+
 #aboutpg h1{
     
     font-weight: 600;
@@ -63,17 +68,26 @@ main {
 #vision1{
     color: black;
 }
-
+.let{
+    background-color: darkkhaki;
+    height: 900px;
+    font-size: medium;
+}
 .data{
-    background-color: #FAD201;
+    background-color: #b9b081;
     height: 350px;
+    padding: 10px;
 }
 
 #pot{
     color: darkgreen;
     text-align: center;
+    font-weight: 700;
 }
-
+#help{
+    height: 100px;
+    width: 100px;
+}
 .load{
     animation: slide 2s;
 }
@@ -111,10 +125,7 @@ main {
     font-weight: 700;
 }
 
-#help{
-    height: 100px;
-    width: 100px;
-}
+
 @keyframes slide{
     0%{
         background-image: url('https://cdn.standardmedia.co.ke/images/friday/lsly83xgzi2m072cj16013f049c41af.jpg');
