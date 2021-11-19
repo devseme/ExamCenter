@@ -59,9 +59,12 @@ main {
 
 .lec h2{
     color: black;
-    
-}
+    font-weight: 700;
 
+}
+#submit{
+    font-size: 10px;
+}
 .row3 h1{
     font-weight: 600;
 }
